@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img_2">
+
+
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Choose Game Mode:"
+       android:textSize="37dp"
+       android:textStyle="bold"
+       android:textColor="@color/black"
+       android:layout_margin="30dp"
+       ></TextView>
+
+    <Button
+        android:backgroundTint="#FFC107"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/row"
+        android:text="first to line"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        ></Button>
+    <Button
+        android:backgroundTint="#FFC107"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/diagnols"
+        android:text="first to 2 diagnols"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:layout_marginTop="40dp"
+        ></Button>
+    <Button
+        android:backgroundTint="#FFC107"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/line"
+        android:text="first to row"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:layout_marginTop="40dp"
+        ></Button>
+    <Button
+        android:backgroundTint="#FFC107"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fullboard"
+        android:text="first to complete board"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:layout_marginTop="40dp"
+        ></Button>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_3"
+        android:id="@+id/img_3"
+        android:layout_marginTop="10dp"></ImageView>
+
+</LinearLayout>

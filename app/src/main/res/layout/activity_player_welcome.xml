@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linearLayout"
+    android:background="@drawable/img_1">
+    .
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="150dp"
+        android:text="Welcome Player!"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textStyle="italic"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnStartgame"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#3F51B5"
+        android:textStyle="bold"
+        android:text="Start game"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnSettings"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#3F51B5"
+        android:textStyle="bold"
+        android:text="Settings"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnInstructions"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#3F51B5"
+        android:textStyle="bold"
+        android:text="Instructions"></Button>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img"
+        android:id="@+id/img"
+        android:layout_marginTop="5dp"></ImageView>
+
+
+</LinearLayout>

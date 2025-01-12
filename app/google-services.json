@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "498855234084",
+    "firebase_url": "https://bingo-a221a-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "bingo-a221a",
+    "storage_bucket": "bingo-a221a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498855234084:android:9450f9de9cf8e64dd826b1",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUtLv8IYJkh60KF7vcABEXwYqQkI1r2ic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

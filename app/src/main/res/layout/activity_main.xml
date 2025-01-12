@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to PowerGo!"
+        android:textColor="@color/black"
+        android:layout_margin="30dp"
+        android:textSize="36dp"
+        android:textStyle="italic"
+         ></TextView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Player"
+        android:textSize="40dp"
+        android:id="@+id/Btnplayer"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="70dp"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Host"
+        android:textSize="40dp"
+        android:id="@+id/BtnHost"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="90dp"></Button>
+
+
+
+
+
+
+
+</LinearLayout>

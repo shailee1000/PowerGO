@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Instructions">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="
+במשחק PowerGo! Bingo יש 4 מצבים שונים, כל אחד עם מטרה אחרת. כך משחקים:
+
+1. קו מלא
+מטרה: להיות הראשון שמסיים קו מלא (שורה או טור) על לוח הבינגו.
+איך מנצחים: סמן את כל המספרים באחד מהטורים או השורות בלוח שלך. ברגע שתסיים קו, אתה מנצח!
+2. שורה מלאה
+מטרה: להיות הראשון שמסיים שורה מלאה אחת בלוח.
+איך מנצחים: סמן את כל המספרים בשורה אחת על לוח הבינגו שלך. ברגע שתסיים שורה אחת, אתה מנצח!
+3. 2 אלכסונים מלאים
+מטרה: להיות הראשון שמסיים שני אלכסונים מלאים.
+איך מנצחים: סמן את כל המספרים בשני אלכסונים בלוח (אחד מעלה-למטה והשני מלמטה-למעלה). ברגע שתסיים שני אלכסונים, אתה מנצח!
+4. לוח מלא
+מטרה: להיות הראשון שמסיים את כל המספרים בלוח הבינגו.
+איך מנצחים: סמן את כל המספרים בלוח שלך. ברגע שתסיים את כל הלוח, אתה מנצח!
+כוחות ייחודיים במשחק
+ PowerGo יש כוחות מיוחדים שמקבלים לאחר השגת מטרות מסוימות. כל כוח עוזר לך לזכות או להאט את היריבים!"
+
+android:textSize="20dp"
+></TextView>
+
+</LinearLayout>

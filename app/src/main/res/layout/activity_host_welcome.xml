@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linearLayout"
+    android:background="#00BCD4"
+    tools:context=".HostWelcomeActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="welcome host, what would you like to do?"
+        android:textSize="40dp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:layout_margin="15dp"></TextView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:id="@+id/btnStartgame"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:textStyle="bold"
+        android:text="Start game"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:id="@+id/HostInstractions"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:textStyle="bold"
+        android:text="Instractions"></Button>
+
+</LinearLayout>
